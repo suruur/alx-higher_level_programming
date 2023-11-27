@@ -1,6 +1,6 @@
 #ifndef LIST_H
 #define LIST_H
-#include<stdlib>
+#include<stdlib.h>
 
 /**
  * struct listint_s - singly list
@@ -13,7 +13,9 @@
 typedef struct listint_s
 {
 	int n;
-	listint_s *next;
+	struct listint_s *next;
 } listint_t;
 
 int check_cycle(listint_t *list);
+
+#endif
