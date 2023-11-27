@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-import Include/opcode.h
 
 def magic_calculation(a, b):
+    result = 98
+
 
 dis.dis(magic_calculation(a, b)
