@@ -10,5 +10,3 @@ def uppercase(s):
         else:
             print("{}".format(char), end='' if i < len(s) - 1 and s != "" else '\n')
         i = i + 1
-
-uppercase(" juiko ")
