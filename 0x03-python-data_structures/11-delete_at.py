@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def delete_at(my_list=[], idx=0):
 
-    in not my_list or idx < 0 or idx >= len(my_list):
+    idx < 0 or idx >= len(my_list):
         return my_list
 
     new_l = []
