@@ -1,6 +1,9 @@
 #!/usr/bin/python3
-def print_list_integer(my_list=[]):
+def devisible_by_2(my_list=[]):
 
     if __name__ == "__main__":
-        for i in my_list:
-            print("{:d}".format(i))
+        res = []
+        for num in my_list:
+            res.append(num % 2 == 0)
+
+        return res
