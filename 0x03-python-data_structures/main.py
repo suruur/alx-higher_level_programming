@@ -1,9 +1,12 @@
 #!/usr/bin/python3
 print("Inside Main ...")
-new_in_list = __import__('4-new_in_list').new_in_list
+divisible_by_2 = __import__('10-divisible_by_2').divisible_by_2
 
-my_list = [1]
-idx = 3
-ne = 8
-print(my_list)
-print(new_in_list(my_list,idx, ne))
+my_list = [0,1,3,4,5,6]
+list_res = divisible_by_2(my_list)
+
+
+i = 0
+while i < len(list_res):
+    print("{:d} {:s} divisible by 2".format(my_list[i], "is" if list_res[i] else "is not"))
+    i += 1

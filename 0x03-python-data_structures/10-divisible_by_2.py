@@ -1,8 +1,5 @@
 #!/usr/bin/python3
-def devisible_by_2(my_list=[]):
+def divisible_by_2(my_list=[]):
 
-    res = []
-    for num in my_list:
-        res.append(num % 2 == 0)
-
+    res = [num % 2 == 0 for num in my_list]
     return res
