@@ -4,7 +4,7 @@ def print_reversed_list_integer(my_list=[]):
     if len(my_list) == 0:
         return 0
     elif len(my_list) == 1:
-        print("{:d}".format(my_list[0]))
+        print("{:d}".format(my_list[0]) if my_list[0].isdigit())
     else:
         for i in range(len(my_list) - 1, -1, -1):
-            print("{}".format(my_list[i]))
+            print("{:d}".format(my_list[i]))
