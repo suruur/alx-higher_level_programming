@@ -6,7 +6,7 @@ def print_matrix_integer(matrix=[[]]):
     else:
         for row in matrix:
             for element in row:
-                print("{:d}".format(element), end=" " if element != row[-1] else "$")
+                print("{}".format(element), end=" " if element != row[-1] else "$")
             print()
 #    if matrix:
 #        for row in matrix:
